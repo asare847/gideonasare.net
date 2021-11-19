@@ -1,191 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	
-	<!--
-		Basic
-	-->
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-	<title>Ryan - vCard / Resume / CV Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="description" content="vCard & Resume Template" />
-	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
-	<meta name="author" content="beshleyua" />
-	
-	<!--
-		Load Fonts
-	-->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
-	
-	<!--
-		Load CSS
-	-->
-	<link rel="stylesheet" href="css/basic.css" />
-	<link rel="stylesheet" href="css/layout.css" />
-	<link rel="stylesheet" href="css/blogs.css" />
-	<link rel="stylesheet" href="css/ionicons.css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" />
-	<link rel="stylesheet" href="css/animate.css" />
-	<link rel="stylesheet" href="css/owl.carousel.css" />
+@extends('layouts.app')
 
-	<!--
-		Background Gradient
-	-->
-	<!--<link rel="stylesheet" href="css/gradient.css" />-->
-	
-	<!--
-		Template New-Skin
-	-->
-	<!--<link rel="stylesheet" href="css/new-skin/new-skin.css" />-->
-
-	<!--
-		Template RTL
-	-->
-	<!--<link rel="stylesheet" href="css/rtl.css" />-->
-	
-	<!--
-		Template Colors
-	-->
-	<link rel="stylesheet" href="css/template-colors/green.css" />
-	<!--<link rel="stylesheet" href="css/template-colors/blue.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/orange.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/pink.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/purple.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/red.css" />-->
-
-	<!--
-		Template Dark
-	-->
-	<!--<link rel="stylesheet" href="css/template-dark/dark.css" />-->
-
-	
-	<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
-	<!--
-		Favicons
-	-->
-	<link rel="shortcut icon" href="images/favicons/favicon.ico">
-	
-</head>
-
-<body>
-	<div class="page">
-		
-		<!-- preloader -->
-		<div class="preloader">
-			<div class="centrize full-width">
-				<div class="vertical-center">
-					<div class="spinner">
-						<div class="double-bounce1"></div>
-						<div class="double-bounce2"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- background -->
-		<div class="background"></div>
-
-		<!--
-			Container
-		-->
-		<div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
-
-			<!--
-				Header
-			-->
-			<header class="header">
-
-				<!-- menu -->
-				<div class="top-menu">
-					<ul>
-						<li class="active">
-							<a href="#about-card">
-								<span class="icon ion-person"></span>
-								<span class="link">About</span>
-							</a>
-						</li>
-						<li>
-							<a href="#resume-card">
-								<span class="icon ion-android-list"></span>
-								<span class="link">Resume</span>
-							</a>
-						</li>
-						<li>
-							<a href="#works-card">
-								<span class="icon ion-paintbrush"></span>
-								<span class="link">Works</span>
-							</a>
-						</li>
-						<li>
-							<a href="#blog-card">
-								<span class="icon ion-chatbox-working"></span>
-								<span class="link">Blog</span>
-							</a>
-						</li>
-						<li>
-							<a href="#contacts-card">
-								<span class="icon ion-at"></span>
-								<span class="link">Contact</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-
-			</header>
-
-			<!--
-				Card - Started
-			-->
-			<div class="card-started" id="home-card">
-
-				<!--
-					Profile
-				-->
-				<div class="profile">
-
-					<!-- profile image -->
-					<div class="slide" style="background-image: url(images/bg.jpg);"></div>
-
-					<!-- profile photo -->
-					<div class="image">
-						<img src="images/passport1.jpg" alt="" />
-					</div>
-
-					<!-- profile titles -->
-					<div class="title">Gideon Asare</div>
-					<div class="subtitle">Web Developer</div>
-
-					<!-- profile socials -->
-					<div class="social">
-						<a target="_blank" href="https://dribbble.com/"><span class="fab fa-dribbble"></span></a>
-						<a target="_blank" href="https://twitter.com/"><span class="fab fa-twitter"></span></a>
-						<a target="_blank" href="https://github.com/"><span class="fab fa-github"></span></a>
-						<a target="_blank" href="https://www.spotify.com/"><span class="fab fa-spotify"></span></a>
-						<a target="_blank" href="https://stackoverflow.com/"><span class="fab fa-stack-overflow"></span></a>
-					</div>
-					
-					<!-- profile buttons -->
-					<div class="lnks">
-						<a href="#" class="lnk">
-							<span class="text">Download CV</span>
-							<span class="ion ion-archive"></span>
-						</a>
-						<a href="#" class="lnk discover">
-							<span class="text">Contact Me</span>
-							<span class="arrow"></span>
-						</a>
-					</div>
-
-				</div>
-
-			</div>
-
+@section('content')
 			<!-- 
 				Card - About
 			-->
@@ -205,17 +20,15 @@
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
 								<div class="text-box">
 									<p>
-										I am Gideon Asare, web developer form Peterborough, Cambridgeshire. I have rich experience in 
-										web site design and building and customization, also I am good at wordpress. 
-										I love to talk with you about our unique.
+										I am Gideon Asare, web developer from Peterborough, Cambridgeshire. I am pasionate about software development and continue to learn new tech. 	
 									</p>
 								</div>
 								<div class="info-list">
 									<ul>
-										<li><strong>Age . . . . .</strong> 24</li>
-										<li><strong>Residence . . . . .</strong> USA</li>
+										<li><strong>Email . . . . .</strong> info@gideonasare.dev</li>
+										<li><strong>Residence . . . . .</strong> UK</li>
 										<li><strong>Freelance . . . . .</strong> Available</li>
-										<li><strong>Address . . . . .</strong> California, USA</li>
+										<li><strong>Address . . . . .</strong> Peterborough</li>
 									</ul>
 								</div>
 							</div>
@@ -238,11 +51,10 @@
 							<!-- service item -->
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="service-item">
-									<div class="icon"><span class="ion ion-code"></span></div>
-									<div class="name">Web Development</div>
+									<div class="icon"><span class="ion ion-card"></span></div>
+									<div class="name">ECommerce</div>
 									<p>
-										Modern and mobile-ready website that will help you 
-										reach all of your marketing.
+										Crafting modern ecommerce solutions for businesses. 
 									</p>
 								</div>
 							</div>
@@ -250,10 +62,20 @@
 							<!-- service item -->
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="service-item">
-									<div class="icon"><span class="ion ion-music-note"></span></div>
-									<div class="name">Music Writing</div>
+									<div class="icon"><span class="ion ion-code"></span></div>
+									<div class="name">Web Development</div>
 									<p>
-										Music copying, transcription, arranging and composition services.
+										Developing websites and apps for any need. 
+								</div>
+							</div>
+
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="service-item">
+									<div class="icon"><span class=" ion-ios-email"></span></div>
+									<div class="name">Email Solutions</div>
+									<p>
+										Getting business domain emails for business of any size 
 									</p>
 								</div>
 							</div>
@@ -261,21 +83,10 @@
 							<!-- service item -->
 							<div class="col col-d-6 col-t-6 col-m-12">
 								<div class="service-item">
-									<div class="icon"><span class="ion ion-speakerphone"></span></div>
-									<div class="name">Advetising</div>
+									<div class="icon"><span class="ion ion-calendar"></span></div>
+									<div class="name">Booking Systems</div>
 									<p>
-										Advertising services include television, radio, print, mail and web.
-									</p>
-								</div>
-							</div>
-
-							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12">
-								<div class="service-item">
-									<div class="icon"><span class="ion ion-ios-game-controller-b"></span></div>
-									<div class="name">Game Development</div>
-									<p>
-										Developing memorable and unique mobile android, ios games.
+										Developing Booking systems for all line of business.
 									</p>
 								</div>
 							</div>
@@ -302,17 +113,15 @@
 									<div class="icon"><i class="ion ion-speedometer speed-basic"></i></div>
 									<div class="name">Basic</div>
 									<div class="amount">
-										<span class="dollar">$</span>
-										<span class="number">22</span>
-										<span class="period">hour</span>
+										<span class="dollar">£</span>
+										<span class="number">200</span>
 									</div>
 									<div class="feature-list">
 										<ul>
-											<li>Web Development</li>
-											<li>Advetising</li>
-											<li>Game Development</li>
-											<li class="disable">Music Writing</li>
-											<li class="disable">Photography <strong>new</strong></li>
+											<li>5 page website</li>
+											<li>1 admin dashboard</li>
+											<li>1 year hosting</li>
+											<li>1 free email</li>
 										</ul>
 									</div>
 									<div class="lnks">
@@ -330,17 +139,15 @@
 									<div class="icon"><i class="ion ion-speedometer"></i></div>
 									<div class="name">Pro</div>
 									<div class="amount">
-										<span class="dollar">$</span>
-										<span class="number">48</span>
-										<span class="period">hour</span>
+										<span class="dollar">£</span>
+										<span class="number">600</span>	
 									</div>
 									<div class="feature-list">
 										<ul>
-											<li>Web Development</li>
-											<li>Advetising</li>
-											<li>Game Development</li>
-											<li>Music Writing</li>
-											<li>Photography <strong>new</strong></li>
+											<li>15 pages minimum website</li>
+											<li>4 admin dashboard </li>
+											<li>2 year hosting</li>
+											<li>5 free email</li>
 										</ul>
 									</div>
 									<div class="lnks">
@@ -371,16 +178,16 @@
 							<!-- fuct item -->
 							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 								<div class="fuct-item">
-									<div class="icon"><span class="ion ion-disc"></span></div>
-									<div class="name">80 Albumes Listened</div>
+									<div class="icon"><span class="ion-ios-football"></span></div>
+									<div class="name">Chelsea FC</div>
 								</div>
 							</div>
 
 							<!-- fuct item -->
 							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 								<div class="fuct-item">
-									<div class="icon"><span class="ion ion-trophy"></span></div>
-									<div class="name">15 Awards Won</div>
+									<div class="icon"><span class="ion-android-bicycle"></span></div>
+									<div class="name">Loves Biking</div>
 								</div>
 							</div>
 
@@ -388,7 +195,7 @@
 							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 								<div class="fuct-item">
 									<div class="icon"><span class="ion ion-coffee"></span></div>
-									<div class="name">1 000 Cups of coffee</div>
+									<div class="name">latte lover</div>
 								</div>
 							</div>
 
@@ -420,8 +227,8 @@
 							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 								<div class="client-item">
 									<div class="image">
-										<a target="_blank" href="https://www.google.com">
-											<img src="images/clients/client_1.png" alt="" />
+										<a target="_blank" href="https://www.asanteakyemruralbank.com">
+											<img src="images/clients/asakyem.png" alt="" />
 										</a>
 									</div>
 								</div>
@@ -431,14 +238,14 @@
 							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 								<div class="client-item">
 									<div class="image">
-										<a target="_blank" href="https://www.google.com">
-											<img src="images/clients/client_2.png" alt="" />
+										<a target="_blank" href="">
+											<img src="images/clients/wensah.jpeg" alt="" />
 										</a>
 									</div>
 								</div>
 							</div>
 
-							<!-- client item -->
+						{{-- 	<!-- client item -->
 							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 								<div class="client-item">
 									<div class="image">
@@ -458,7 +265,7 @@
 										</a>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 
 							<div class="clear"></div>
 						</div>
@@ -468,7 +275,7 @@
 					<!--
 						Testimonials
 					-->
-					<div class="content testimonials">
+				{{-- 	<div class="content testimonials">
 
 						<!-- title -->
 						<div class="title">Testimonials</div>
@@ -532,7 +339,7 @@
 							<div class="clear"></div>
 						</div>
 
-					</div>
+					</div> --}}
 
 				</div>
 			</div>
@@ -1107,63 +914,33 @@
 
 						<!-- content -->
 						<div class="row border-line-v">
-
-							<!-- blog item -->
+							@foreach ($posts as $post)
+								<!-- blog item -->
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
 								<div class="box-item">
 									<div class="image">
 										<a href="blog-post.html">
 											<img src="images/blog/blog1.jpg" alt="" />
+											<img src="/storage/images/{{$post->image}}" alt="">
 											<span class="info">
 												<span class="ion ion-document-text"></span>
 											</span>
-											<span class="date"><strong>20</strong>Jun</span>
+											<span class="date"><strong>{{date(' j',strtotime( $post->created_at))}}</strong>{{date('M ',strtotime( $post->created_at))}}</span>
+						
+											{{-- <span class="date">{{date('<strong>'.'j'.'</strong>'.'<strong>'.'F'.'</strong>',strtotime( $post->created_at))}}</span> --}}
+											
 										</a>
 									</div>
 									<div class="desc">
-										<a href="blog-post.html" class="name">By spite about do of do allow blush</a>
+										<a href="{{ url('/blog/'.$post->slug) }}" class="name">{{ $post->title }}</a>
 										<div class="category">Design</div>
 									</div>
 								</div>
 							</div>
+							@endforeach
+							
 
-							<!-- blog item -->
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
-								<div class="box-item">
-									<div class="image">
-										<a href="blog-post.html">
-											<img src="images/blog/blog2.jpg" alt="" />
-											<span class="info">
-												<span class="ion ion-document-text"></span>
-											</span>
-											<span class="date"><strong>19</strong>Jun</span>
-										</a>
-									</div>
-									<div class="desc">
-										<a href="blog-post.html" class="name">Two Before Arrow Not Relied</a>
-										<div class="category">Coding</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- blog item -->
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
-								<div class="box-item">
-									<div class="image">
-										<a href="blog-post.html">
-											<img src="images/blog/blog3.jpg" alt="" />
-											<span class="info">
-												<span class="ion ion-document-text"></span>
-											</span>
-											<span class="date"><strong>20</strong>Jun</span>
-										</a>
-									</div>
-									<div class="desc">
-										<a href="blog-post.html" class="name">By spite about do of do allow blush</a>
-										<div class="category">Travel</div>
-									</div>
-								</div>
-							</div>
+							
 
 							<div class="clear"></div>
 						</div>
@@ -1255,29 +1032,10 @@
 				</div>
 			</div>
 
-		</div>
-	</div>
 	
+			
 	<!--
 		jQuery Scripts
 	-->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/jquery.magnific-popup.js"></script>
-	<script src="js/imagesloaded.pkgd.js"></script>
-	<script src="js/isotope.pkgd.js"></script>
-	<script src="js/jquery.slimscroll.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	
-	<!--
-		Google map api
-	-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script>
-	
-	<!--
-		Main Scripts
-	-->
-	<script src="js/scripts.js"></script>
-	
-</body>
-</html>
+
+@endsection
