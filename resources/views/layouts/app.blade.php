@@ -7,7 +7,7 @@
 	-->
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-	<title>Ryan - vCard / Resume / CV Template</title>
+	<title>Gideon - vCard / Resume / CV Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta name="description" content="vCard & Resume Template" />
 	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="{{ asset('css/magnific-popup.css')}}" />
 	<link rel="stylesheet" href="{{ asset('css/animate.css')}}" />
 	<link rel="stylesheet" href="{{ asset('css/owl.carousel.css')}}" />
+	
 
 	<!--
 		Background Gradient
@@ -95,7 +96,7 @@
 			Container
 		-->
 		<div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
-
+	
 			<!--
 				Header
 			-->
@@ -173,7 +174,7 @@
 						<a href="/images/cv/GIDEON_ASARE113.docx" class="lnk">
 							<span class="text">Download CV</span>
 							<span class="ion ion-archive"></span>
-						</a>`		
+						</a>		
 						<a href="#" class="lnk discover">
 							<span class="text">Contact Me</span>
 							<span class="arrow"></span>
@@ -198,12 +199,12 @@
             <!--
                 Google map api
             -->
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script>
             
             <!--
                 Main Scripts
             -->
             <script src="js/scripts.js"></script>
-            
+			
+            @stack('scripts')
         </body>
         </html>

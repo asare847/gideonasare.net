@@ -125,7 +125,7 @@
 										</ul>
 									</div>
 									<div class="lnks">
-										<a href="#" class="lnk">
+										<a href="{{url('checkout')}}"  class="lnk">
 											<span class="text">Buy Basic</span>
 											<i class="ion ion-speedometer speed-basic"></i>
 										</a>
@@ -199,13 +199,13 @@
 								</div>
 							</div>
 
-							<!-- fuct item -->
+							{{-- <!-- fuct item -->
 							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 								<div class="fuct-item">
 									<div class="icon"><span class="ion ion-flag"></span></div>
 									<div class="name">10 Countries Visited</div>
 								</div>
-							</div>
+							</div> --}}
 
 							<div class="clear"></div>
 						</div>
@@ -369,29 +369,22 @@
 								</div>
 								<div class="resume-items">
 									<div class="resume-item border-line-h active">
-										<div class="date">2013 - Present</div>
-										<div class="name">Art Director</div>
-										<div class="company">Facebook Inc.</div>
+										<div class="date">2020 - Present</div>
+										<div class="name">Web Developer</div>
+										<div class="company">Freelance</div>
 										<p>
-											Collaborate with creative and development teams on the execution of ideas.
+											Marketing and developing Websites and Web Applications for  clients. 
 										</p>
 									</div>
 									<div class="resume-item border-line-h">
-										<div class="date">2011 - 2012</div>
-										<div class="name">Front-end Developer</div>
-										<div class="company">Google Inc.</div>
+										<div class="date">2015 - 2018</div>
+										<div class="name">Web  Developer</div>
+										<div class="company">webnun it solutions.</div>
 										<p>
-											Monitored technical aspects of the front-end delivery for several projects.
+											Developing clients websites using wordpress, Bootstrap and JQuery
 										</p>
 									</div>
-									<div class="resume-item">
-										<div class="date">2009 - 2010</div>
-										<div class="name">Senior Developer</div>
-										<div class="company">Abc Inc.</div>
-										<p>
-											Optimize website performance using latest technology.
-										</p>
-									</div>
+			
 								</div>
 							</div>
 
@@ -402,30 +395,48 @@
 									<div class="name">Education</div>
 								</div>
 								<div class="resume-items">
+					
 									<div class="resume-item border-line-h">
-										<div class="date">2006 - 2008</div>
-										<div class="name">Art University</div>
-										<div class="company">New York</div>
+										<div class="date">2020-Date </div>
+										<div class="name">Laravel Framework</div>
+										<div class="company">Laracast</div>
 										<p>
-											Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri
+											Coursework - Laravel from Scratch,Eloquent Models, Factories and Seeders, Studs,Cashier,Multiauth,Stripe Integration etc.
 										</p>
 									</div>
 									<div class="resume-item border-line-h">
-										<div class="date">2005 - 2006</div>
-										<div class="name">Programming Course</div>
-										<div class="company">Paris</div>
+										<div class="date">2015-2018 </div>
+										<div class="name">Web Development</div>
+										<div class="company">Udemy</div>
 										<p>
-											Coursework - Git, WordPress, Javascript, iOS, Android.
+											Coursework - Bootstrap,JQuery, Angular and Advance PHP
 										</p>
 									</div>
-									<div class="resume-item">
-										<div class="date">2004 - 2005</div>
-										<div class="name">Web Design Course</div>
-										<div class="company">London</div>
+									<div class="resume-item border-line-h">
+										<div class="date">2014 </div>
+										<div class="name">Web Development</div>
+										<div class="company">Udemy</div>
 										<p>
-											Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript
+											Coursework - HTML, CSS, Javascript, JQuery, PHP ,MySQL,Wordpress 
 										</p>
 									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">2012 - 2013</div>
+										<div class="name">Introduction to  C/C++</div>
+										<div class="company">Cousera</div>
+										<p>
+											Coursework - Data Structures, Standard Template Library, Pointers, Objected Oriented principles. 
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">2005 - 2009</div>
+										<div class="name">Kwame Nkrumah University of Science & Technology</div>
+										<div class="company">Ghana</div>
+										<p>
+											Bachelor of Art  in Integrated Rural  Art & Industry
+										</p>
+									</div>
+									
 								</div>
 							</div>
 
@@ -610,8 +621,13 @@
 						
 					</div>
 
+					
+
 				</div>
 			</div>
+
+
+			
 
 			<!--
 				Card - Works
@@ -949,8 +965,8 @@
 
 				</div>
 			</div>
-
 			<!--
+			
 				Card - Contacts
 			-->
 			<div class="card-inner contacts" id="contacts-card">
@@ -967,7 +983,7 @@
 						<!-- content -->
 						<div class="row">
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-								
+								<div class="map" id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d19402.658020838127!2d-0.2564677!3d52.5636025!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1637342703551!5m2!1sen!2suk" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
 								<div class="info-list">
 									<ul>
 										<li><strong>Address . . . . .</strong> Peterborough, UK</li>
@@ -982,6 +998,7 @@
 
 					</div>
 
+      
 					<!--
 						Contact Form
 					-->
@@ -994,41 +1011,44 @@
 						<div class="row">
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
 								<div class="contact_form">
-									<form id="cform" method="post">
-										<div class="row">
-											<div class="col col-d-6 col-t-6 col-m-12">
-												<div class="group-val">
-													<input type="text" name="name" placeholder="Full Name" required/>
+									<div class="contact_form">
+										<form id="cform" method="post">
+											<div class="row">
+												<div class="col col-d-6 col-t-6 col-m-12">
+													<div class="group-val">
+														<input type="text" name="name"  id="name" placeholder="Full Name" required />
+													</div>
+												</div>
+												<div class="col col-d-6 col-t-6 col-m-12">
+													<div class="group-val">
+														<input type="text" name="email" id="email"  placeholder="Email Address"  required/>
+													</div>
+												</div>
+												<div class="col col-d-12 col-t-12 col-m-12">
+													<div class="group-val">
+														<textarea name="message"  id="message"  placeholder="Your Message" required></textarea>
+													</div>
 												</div>
 											</div>
-											<div class="col col-d-6 col-t-6 col-m-12">
-												<div class="group-val">
-													<input type="email" name="email" placeholder="Email Address"  required/>
-												</div>
+											<div class="align-left">
+												<a href="#" class="button" onclick="$('#cform').submit(); return false;">
+													<span class="text">Send Message</span>
+													<span class="arrow"></span>
+												</a>
 											</div>
-											<div class="col col-d-12 col-t-12 col-m-12">
-												<div class="group-val">
-													<textarea name="message" placeholder="Your Message"></textarea>
-												</div>
+											<div class="success alert-success" id="success-message">
+												<p id="success-message">Thanks, your message is sent successfully.</p>
 											</div>
-										</div>
-										<div class="align-left">
-											<a href="#" class="button" onclick="$('#cform').submit(); return false;">
-												<span class="text">Send Message</span>
-												<span class="arrow"></span>
-											</a>
-										</div>
-									</form>
-									<div class="alert-success">
-										<p>Thanks, your message is sent successfully.</p>
+										</form>
+										<span class="success" style="color:green; margin-top:10px; margin-bottom: 10px;"></span>
 									</div>
-								</div>
+									
 							</div>
 							<div class="clear"></div>
 						</div>
 
 					</div>
-
+					
 				</div>
 			</div>
 
@@ -1039,3 +1059,32 @@
 	-->
 
 @endsection
+@push('scripts')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+		
+       $('#cform').on('submit',function(e){
+        e.preventDefault();
+
+        let name = $('#name').val();
+        let email = $('#email').val();
+        let message = $('#message').val();
+        $.ajax({
+          url: "/contact/store",
+          type:"POST",
+          data:{
+            "_token": "{{ csrf_token() }}",
+            name:name,
+            email:email,
+            message:message,
+          },
+          success:function(response){
+            if (response) {
+              $('#success-message').text(response.success);
+              $("#cform")[0].reset();
+            }
+          },
+         });
+        });
+      </script>
+@endpush
