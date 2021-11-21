@@ -25,7 +25,7 @@
 								</div>
 								<div class="info-list">
 									<ul>
-										<li><strong>Email . . . . .</strong> info@gideonasare.dev</li>
+										<li><strong>Email . . . . .</strong> info@gideonasare.net</li>
 										<li><strong>Residence . . . . .</strong> UK</li>
 										<li><strong>Freelance . . . . .</strong> Available</li>
 										<li><strong>Address . . . . .</strong> Peterborough</li>
@@ -987,7 +987,7 @@
 								<div class="info-list">
 									<ul>
 										<li><strong>Address . . . . .</strong> Peterborough, UK</li>
-										<li><strong>Email . . . . .</strong> info@gideonasare.dev</li>
+										<li><strong>Email . . . . .</strong> info@gideonasare.net</li>
 										<li><strong>Phone . . . . .</strong> +44 7365793327</li>
 										<li><strong>Freelance . . . . .</strong> Available</li>
 									</ul>
